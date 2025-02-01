@@ -23,7 +23,7 @@ const Navbarr = ()=>{
             <Link to="/" style={{textDecoration:"none"}}>Home</Link>!!
             <Link to="about" style={{textDecoration:"none"}} >About</Link>!!
            
-         <Link to="room" style={{textDecoration:"none"}}>Room</Link>!!
+         <Link to="card" style={{textDecoration:"none"}}>Card</Link>!!
             <Link to="section" style={{textDecoration:"none"}} >Section</Link>!!
 
 

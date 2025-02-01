@@ -2,11 +2,12 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import About from './Pages/About'
-import Room from '../Room'
+// import Room from '../Room'
 import Section from './Pages/Sections'
 import Nopage from './Pages/Nopage'
 import Navbarr from './Component/Navbar'
 import Home from './Home'
+import Cards from './Card'
 
 function App() {
  
@@ -19,7 +20,7 @@ function App() {
     <Route index element={<Home/>} />
     <Route path='/home' element={<Home/>} />
     <Route path='/about' element={<About/>} />
-    <Route path='/room' element={<Room/>} />
+    <Route path='/card' element={<Cards/>}/>
     <Route path='/section' element={<Section/>} />
     <Route path="*" element={<Nopage/>} />
 
